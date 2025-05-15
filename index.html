@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahar Düğün ve Kır Bahçesi</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+  <div class="logo">Düğün Bahçesi</div>
+  <button class="hamburger" onclick="toggleMenu()">☰</button>
+  <nav class="nav-links" id="nav-links">
+    <a href="index.html">Ana Sayfa</a>
+    <a href="hakkimizda.html">Hakkımızda</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="hizmetler.html">Hizmetler</a>
+    <a href="paketler.html">Paketler</a>
+    <a href="sss.html">SSS</a>
+    <a href="rezervasyon.html">Rezervasyon</a>
+    <a href="iletisim.html">İletişim</a>
+  </nav>
+</header>
+    
+
+    <!-- Ana içerik -->
+    <main>
+     <!-- GİRİŞ EKRANI (VIDEO) -->
+      
+  <section class="hero-section">
+  <video autoplay muted loop id="hero-video">
+    <source src="img/intro1.mp4" type="video/mp4">
+    Tarayıcınız video etiketini desteklemiyor.
+  </video>
+  <div class="hero-text">
+    <h1>Hayallerinizdeki Düğün İçin...</h1>
+    <p>Doğayla iç içe unutulmaz bir an.</p>
+  </div>
+</section>
+  
+        <section class="stats">
+            <h2>Şimdiye Kadar Düzenlenen Düğün Sayısı</h2>
+            <p><span id="weddingCounter">0</span> mutlu çift!</p>
+          </section>
+           <!-- HAKKIMIZDA -->
+ 
+  <section id="hakkimizda" class="about-section">
+  <div class="about-content">
+    <h2>Hakkımızda</h2>
+    <p>
+      Doğanın kalbinde, yeşilin ve huzurun kucaklaştığı eşsiz bir atmosferde, hayatınızın en özel gününe ev sahipliği yapıyoruz.
+      <strong>Yılların deneyimi</strong> ve <strong>profesyonel ekibimiz</strong> ile hayallerinizdeki düğünü gerçeğe dönüştürmek bizim için bir ayrıcalık.
+    </p>
+    <p>
+      Misafirlerimizin memnuniyetini her şeyin önünde tutan anlayışımızla, her detayı özenle planlıyor; masa düzeninden müziğe,
+      fotoğraftan ikrama kadar tüm süreçlerde sizin yanınızda oluyoruz. 
+      Sıcak, samimi ve zarif dokunuşlarla süslenen kır bahçemiz, dört mevsim boyunca büyüleyici güzelliğini korur.
+    </p>
+
+    <h3>Misyonumuz</h3>
+    <p>
+      En mutlu gününüzü unutulmaz kılmak için; kaliteli hizmet anlayışı, özgün tasarımlar ve müşteri odaklı yaklaşımla sizlere özel bir deneyim sunmak.
+      Doğayla iç içe, huzurlu ve şık bir ortamda; her çiftimizin kendine özgü hayalini gerçeğe dönüştürmek en büyük amacımızdır.
+    </p>
+
+    <h3>Vizyonumuz</h3>
+    <p>
+      Türkiye'nin en güvenilir ve tercih edilen kır düğünü mekanlarından biri olarak;
+      yenilikçi, estetik ve sürdürülebilir organizasyon çözümleri sunarak sektörde öncü olmak.
+      Sadece bir düğün mekanı değil, aynı zamanda unutulmaz anıların yaratıldığı özel bir alan haline gelmek.
+    </p>
+
+    <h3>Güven ve Kalite</h3>
+    <p>
+      Bizimle çalışan her çift, yalnızca bir organizasyon değil; <em>bir dostluk, bir güven ve bir bağlılık</em> kazanır.
+      Tüm hizmetlerimizde kalite standartlarımızdan ödün vermeden, şeffaf ve samimi iletişim kurarız.
+      500+ mutlu çiftin ve sayısız konuklarımızın memnuniyeti, bizim için en büyük referanstır.
+    </p>
+
+    <p>
+      Siz de bu büyülü atmosferde, hayatınızın en özel “evet”ini söylemek istiyorsanız; haydi gelin, hayalinize birlikte dokunalım.
+    </p>
+  </div>
+</section>
+
+          
+    </main>
+
+    <!-- Footer -->
+     <footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-links">
+      <a href="index.html">Anasayfa</a>
+      <a href="hakkimizda.html">Hakkımızda</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="hizmetler.html">Hizmetler</a>
+      <a href="rezervasyonlar.html">Rezervasyonlar</a>
+      <a href="iletisim.html">İletişim</a>
+    </div>
+    <p class="footer-note">© 2025 Doğanın Kalbinde Düğünler - Tüm hakları saklıdır.</p>
+  </div>
+</footer>
+
+    <footer>
+        <p>&copy; 2025 Bahar Düğün ve Kır Bahçesi. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="scripts/myscript.js"></script>
+    <script>
+  function toggleMenu() {
+    const nav = document.getElementById("nav-links");
+    nav.classList.toggle("show");
+  }
+</script>
+
+</body>
+</html>
